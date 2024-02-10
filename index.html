@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=""> 
+        <div class="container"> 
+
+
+        <div class="search__box">
+            <i class="fa fa-map-marker search__icon"></i>
+            <input type="text" id="searchInput" class="search__input" placeholder="Enter your location...">
+            <button class="fa-solid fa-magnifying-glass search__icon btn" id="btnSearch"></button>
+        </div>
+        
+        <div class="weather__box active">
+            <div class="box">
+                <div class="info__weather">
+                    <div class="weather">
+                        <img src="assets/inicio.png" alt="Inicio">
+                        <p class="temperature">0<span>°C</span></p>
+                        <p class="information">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather__details active">
+
+            <div class="humidity">
+                <i class="fa-solid fa-water details--icon"></i>
+                <div class="info">
+                    <div class="info--text">
+                        <span class="humidity__span">0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind details--icon"></i>
+                <div class="info">
+                    <div class="info--text">
+                        <span class="wind__span">0km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="error">
+            <div class="box">
+                <img class="not__found" src="assets/404.jpg" alt="Error 404">
+            </div>
+            <span>Oops! Location not found</span>
+        </div>
+
+
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/9a26041bce.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
