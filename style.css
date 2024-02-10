@@ -65,6 +65,7 @@ body{
 
 .search__input::placeholder{
     text-transform: none;
+    color: #fff;
 }
 
 .search__icon{
@@ -192,6 +193,7 @@ body{
 @media screenn and (max-width: 560px) {
     body{
         padding: 2rem;
+        height: 100dvh;
         background-attachment: none;
     }
 
