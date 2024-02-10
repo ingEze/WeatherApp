@@ -38,27 +38,27 @@ function performSearch() {
     
     switch (json.weather[0].main) {
         case 'Clear':
-            image.src = '../assets/sun.png'
+            image.src = 'assets/sun.png'
             break;
             
             case 'Clouds':
-                image.src = '../assets/cloudy.png' 
+                image.src = 'assets/cloudy.png' 
                 break;
                 
                 case 'Rain':
-                    image.src = '../assets/rain.png'
+                    image.src = 'assets/rain.png'
                     break;
                     
                     case 'Snow':
-                        image.src = '../assets/snow.png'
+                        image.src = 'assets/snow.png'
                         break;
                         
                         case 'Mist':
-                            image.src = '../assets/mist.png'
+                            image.src = 'assets/mist.png'
                             break;
                             
                             case 'Storm':
-                                image.src = '../assets/storm.png'
+                                image.src = 'assets/storm.png'
                                 break;
                                 
                                 default:
