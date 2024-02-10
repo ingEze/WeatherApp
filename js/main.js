@@ -63,7 +63,7 @@ function performSearch() {
                                 
                                 default:
                                     
-            image.src = '../assets/inicio.png'
+            image.src = 'assets/inicio.png'
         }
 
     
